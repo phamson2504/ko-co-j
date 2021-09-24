@@ -1,46 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="
-#C8EDFE"
+    app:layoutDescription="@xml/activity_main3_scene"
     tools:context=".MainActivity3">
 
     <ImageView
-        android:id="@+id/hoatim"
+        android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="16dp"
-        android:scaleType="fitXY"
-        android:transitionName="fade"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hoa" />
+        app:srcCompat="@drawable/ma"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="189dp" />
 
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="324dp"
-        android:layout_height="178dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="The word “carnival” derives from the Latin “carnelevare” meaning “to take out the meat”. The medieval Church banished meat from the table during the whole period of Lent, as it did with sugar, ingredients containing fat, eggs and dairy products. "
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hoatim" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="341dp" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="298dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="20dp"
-        android:text="Back"
-        app:backgroundTint="#FF5722"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="211dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
